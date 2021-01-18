@@ -1,0 +1,33 @@
+{
+  "name": "final-project-html-sass",
+  "version": "1.0.0",
+  "description": "landing page final project using html, css and sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass --watch css/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heymiriam/final-project-html-sass.git"
+  },
+  "keywords": [
+    "landing",
+    "page",
+    "web",
+    "responsive",
+    "sass",
+    "css",
+    "scss",
+    "html"
+  ],
+  "author": "Miriam Bellon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heymiriam/final-project-html-sass/issues"
+  },
+  "homepage": "https://github.com/heymiriam/final-project-html-sass#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
