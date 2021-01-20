@@ -24,6 +24,13 @@ body {
   opacity: 0; }
 
 @media (min-width: 1024px) {
+  nav {
+    background-color: #456eb4;
+    height: 70px; }
+    nav img {
+      margin-top: 20px;
+      margin-left: 5%;
+      width: 12%; }
   header {
     height: 900px;
     display: flex;
@@ -119,9 +126,9 @@ body {
                 margin-left: 40px; }
             header .cont1 .sect1 .sect-cont form input[type="submit"] {
               margin: 40px 0px 20px 0px;
-              border: 2px solid orange;
+              border: 2px solid #f7a537;
               text-decoration: none;
-              background-color: orange;
+              background-color: #f7a537;
               padding: 15px 0px;
               width: 100%;
               font-size: 20px;
@@ -129,11 +136,11 @@ body {
               text-transform: uppercase;
               border-radius: 5px; }
             header .cont1 .sect1 .sect-cont form input[type="submit"]:hover {
-              background-color: #ee9208; }
+              background-color: #eb8a0c; }
           header .cont1 .sect1 .sect-cont a {
             margin: 20px 50px;
             text-decoration: none;
-            background-color: orange;
+            background-color: #f7a537;
             padding: 10px 40px;
             font-size: 20px;
             color: white;
@@ -142,7 +149,8 @@ body {
       header .cont1 .sect2 {
         width: 60%; }
   .offer {
-    background-color: #d2dce6; }
+    background-color: #d2dce6;
+    box-shadow: 5px 5px 7px -5px rgba(0, 0, 0, 0.67); }
     .offer h2 {
       padding: 70px 70px 10px 70px;
       margin-top: 0px;
@@ -162,7 +170,7 @@ body {
       font-size: 30px;
       width: 80%;
       margin: auto;
-      background-color: #104386;
+      background-color: #456eb4;
       color: white;
       padding-top: 5px;
       padding-bottom: 5px;
@@ -311,4 +319,37 @@ body {
               font-size: 15px; }
             .offer .offer-content .offer-card #offer4 .offer-card-bottom .offer-price-after {
               font-size: 20px;
-              font-weight: 700; } }
+              font-weight: 700; }
+  footer {
+    background-color: white;
+    height: 90px;
+    display: flex;
+    flex-direction: row; }
+    footer .link-foot {
+      font-family: "Nunito Sans", sans-serif;
+      font-size: 15px;
+      display: flex; }
+      footer .link-foot a {
+        text-decoration: none;
+        color: black;
+        margin-top: 40px; }
+      footer .link-foot a:hover {
+        color: blue; }
+      footer .link-foot a:first-child {
+        margin-left: 60px; }
+      footer .link-foot a:last-child {
+        margin-left: 10px; }
+    footer .logo-foot {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: center;
+      margin-right: 5%; }
+      footer .logo-foot img {
+        margin-top: 20px;
+        margin-left: 5%;
+        width: 10%; }
+      footer .logo-foot p {
+        margin-top: 0px;
+        font-size: 12px;
+        font-weight: bold; } }
