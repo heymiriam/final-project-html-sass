@@ -23,34 +23,6 @@ body {
   height: 100%;
   opacity: 0; }
 
-.offer-content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  margin: 5px 20%; }
-
-.offer-card {
-  margin: 20px 0px;
-  border-radius: 4px;
-  width: 30%;
-  margin-right: 20px;
-  -webkit-box-shadow: 5px 5px 7px -5px rgba(0, 0, 0, 0.67);
-  box-shadow: 5px 5px 7px -5px rgba(0, 0, 0, 0.67); }
-
-.offer-card-img-cont {
-  height: 500px;
-  width: 300px;
-  border-radius: 5px;
-  margin: 0px; }
-
-#offer1 {
-  background-image: url(../img/johnstone.jpg);
-  background-size: cover;
-  top: 20;
-  left: 50;
-  background-position: top center; }
-
 @media (min-width: 1024px) {
   header {
     height: 900px;
@@ -170,7 +142,7 @@ body {
       header .cont1 .sect2 {
         width: 60%; }
   .offer {
-    background-color: #b7c5d3; }
+    background-color: #d2dce6; }
     .offer h2 {
       padding: 70px 70px 10px 70px;
       margin-top: 0px;
@@ -178,4 +150,165 @@ body {
       font-family: "Fraunces", serif;
       text-align: center;
       font-weight: 500;
-      font-size: 40px; } }
+      font-size: 40px; }
+    .offer .offer-subheading {
+      font-size: 20px;
+      width: 80%;
+      margin: auto;
+      border-radius: 5px;
+      padding-bottom: 30px;
+      text-align: center; }
+    .offer .offer-upper {
+      font-size: 30px;
+      width: 80%;
+      margin: auto;
+      background-color: #104386;
+      color: white;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 400; }
+    .offer .offer-content {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 5px 10%; }
+      .offer .offer-content .offer-card {
+        margin: 30px 0px;
+        border-radius: 4px;
+        width: 30%;
+        margin-right: 20px;
+        -webkit-box-shadow: 5px 5px 7px -5px rgba(0, 0, 0, 0.67);
+        box-shadow: 5px 5px 7px -5px rgba(0, 0, 0, 0.67); }
+        .offer .offer-content .offer-card .offer-card-img-cont {
+          height: 500px;
+          width: 100%;
+          border-radius: 5px;
+          margin: 0px; }
+        .offer .offer-content .offer-card #offer1 {
+          background-image: url(../img/johnstone1.jpg);
+          background-size: cover;
+          top: 20;
+          left: 50;
+          background-position: top center;
+          display: flex;
+          color: white;
+          flex-direction: column;
+          justify-content: flex-end;
+          align-items: flex-end; }
+          .offer .offer-content .offer-card #offer1 .offer-name {
+            font-family: "Nunito Sans", sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            margin-left: 35px;
+            margin-right: 35px; }
+          .offer .offer-content .offer-card #offer1 .offer-card-cont {
+            width: 90%;
+            margin-top: 0px; }
+            .offer .offer-content .offer-card #offer1 .offer-card-cont .body-text {
+              font-size: 15px;
+              margin-right: 10px; }
+          .offer .offer-content .offer-card #offer1 .offer-card-bottom {
+            display: flex; }
+            .offer .offer-content .offer-card #offer1 .offer-card-bottom .offer-price-before {
+              margin-top: 25px;
+              margin-left: 20px;
+              font-size: 15px; }
+            .offer .offer-content .offer-card #offer1 .offer-card-bottom .offer-price-after {
+              font-size: 20px;
+              font-weight: 700; }
+        .offer .offer-content .offer-card #offer2 {
+          background-image: url(../img/great-bear.jpg);
+          background-size: cover;
+          top: 20;
+          color: white;
+          left: 50;
+          background-position: top center;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          align-items: flex-end; }
+          .offer .offer-content .offer-card #offer2 .offer-name {
+            font-family: "Nunito Sans", sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            margin-left: 35px; }
+          .offer .offer-content .offer-card #offer2 .offer-card-cont {
+            width: 90%;
+            margin-top: 0px; }
+            .offer .offer-content .offer-card #offer2 .offer-card-cont .body-text {
+              font-size: 15px;
+              margin-right: 10px; }
+          .offer .offer-content .offer-card #offer2 .offer-card-bottom {
+            display: flex; }
+            .offer .offer-content .offer-card #offer2 .offer-card-bottom .offer-price-before {
+              margin-top: 25px;
+              margin-left: 20px;
+              font-size: 15px; }
+            .offer .offer-content .offer-card #offer2 .offer-card-bottom .offer-price-after {
+              font-size: 20px;
+              font-weight: 700; }
+        .offer .offer-content .offer-card #offer3 {
+          background-image: url(../img/nuchalitz1.jpg);
+          background-size: cover;
+          top: 20;
+          color: white;
+          left: 50;
+          background-position: top center;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          align-items: flex-end; }
+          .offer .offer-content .offer-card #offer3 .offer-name {
+            font-family: "Nunito Sans", sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            margin-left: 50px; }
+          .offer .offer-content .offer-card #offer3 .offer-card-cont {
+            width: 90%;
+            margin-top: 0px; }
+            .offer .offer-content .offer-card #offer3 .offer-card-cont .body-text {
+              font-size: 15px;
+              margin-right: 10px; }
+          .offer .offer-content .offer-card #offer3 .offer-card-bottom {
+            display: flex; }
+            .offer .offer-content .offer-card #offer3 .offer-card-bottom .offer-price-before {
+              margin-top: 25px;
+              margin-left: 20px;
+              font-size: 15px; }
+            .offer .offer-content .offer-card #offer3 .offer-card-bottom .offer-price-after {
+              font-size: 20px;
+              font-weight: 700; }
+        .offer .offer-content .offer-card #offer4 {
+          background-image: url(../img/whale1.jpg);
+          background-size: cover;
+          top: 20;
+          color: white;
+          left: 50;
+          background-position: left center;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          align-items: flex-end; }
+          .offer .offer-content .offer-card #offer4 .offer-name {
+            font-family: "Nunito Sans", sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            margin-left: 50px; }
+          .offer .offer-content .offer-card #offer4 .offer-card-cont {
+            width: 90%;
+            margin-top: 0px; }
+            .offer .offer-content .offer-card #offer4 .offer-card-cont .body-text {
+              font-size: 15px;
+              margin-right: 10px; }
+          .offer .offer-content .offer-card #offer4 .offer-card-bottom {
+            display: flex; }
+            .offer .offer-content .offer-card #offer4 .offer-card-bottom .offer-price-before {
+              margin-top: 25px;
+              margin-left: 20px;
+              font-size: 15px; }
+            .offer .offer-content .offer-card #offer4 .offer-card-bottom .offer-price-after {
+              font-size: 20px;
+              font-weight: 700; } }
