@@ -1035,6 +1035,504 @@ body{
         }
     
 }
-@media (min-width: $breakpoint-phone){
-    
+@media (max-width: $breakpoint-phone){
+    nav{
+        background-color:#456eb4;
+
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        img{
+            margin:20px;
+            width:20%;
+          
+        }
+    }
+
+    header{
+        //@include style-heading;
+        //height:900px;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+
+        .cont1{
+            display:flex;
+            flex-direction:column-reverse;
+            justify-content: flex-start;
+            width:100%;
+            section{
+              
+                height:900px;
+                display:flex;
+                flex-direction:column;
+                justify-content: center;
+                align-items:center;
+            }
+            .sect1{
+                width:100%;
+                margin-top:-10%;
+                height:600px;
+                display:flex;
+                justify-content:flex-start;
+
+                .sect-cont{
+                    width:100%;
+                    display:flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-content:center;
+                    align-items:center;
+                
+                    h1{
+                        font-family: $heading-font;
+                        font-weight:500;
+                        font-size:$heading-text;
+                        align-self: center;
+                        margin-bottom:20px;
+                        margin-left:12%;
+                        //visibility:hidden;
+                        display:none;
+                    }
+                    .header-txt{
+                        text-align:center;
+                        color:rgb(29, 25, 25);
+                        //visibility:hidden;
+                        //display:none;
+                    }
+                    p{
+                        text-align:center;
+                        margin-top:5px;
+                        margin-left: 5%;
+                        margin-bottom:25px;
+                        width:80%;
+                    }
+                    .para1{
+                        //border-top:5px solid orange;
+                        font-size:$section-text;
+                        padding-top:5px;
+                    }
+                    .para2{
+                        font-size:$body-text;
+                    }
+                    form{
+                        //background-color:#0066ff;
+                        padding:0px 10px;
+                        margin-top:15px;
+                        margin-bottom:0px;
+                        width:75%;
+                        border-radius:5px;
+                        display:flex;
+                        flex-direction:column;
+                        justify-content:flex-start;
+                        align-items:space-around;
+                            
+                            
+                        
+                        label{
+                            font-size:$button-text;
+                            color:black;
+                            margin-top:30px;
+                            margin-bottom:10px;
+                            text-align:center;
+                        }
+                        select{
+                            height: 40px;
+                            color:rgb(153, 153, 153);
+                            font-size:$body-text;
+                            border:none;
+                            box-shadow: 5px 5px 15px 1px rgba(168,168,168,0.72);                            font-family:$main-font;
+                            align-self: center;
+                            text-align:center;
+                            padding-left:20px;
+                            border-radius:5px;
+                            width:100%;
+                            
+                        }
+                        .form-date{
+                            margin-top:25px;
+                            display:flex;
+                            flex-direction:row;
+                            label{
+                                font-size:$button-text;
+                                color:black;
+                                margin-top:30px;
+                                margin-bottom:10px;
+                            }
+                            input[type="date"]{
+                            width:95%;
+                            height: 40px;
+                            color:rgb(153, 153, 153);
+                            font-size:$body-text;
+                            border:none;
+                            margin-top:10px;
+                            box-shadow: 5px 5px 15px 1px rgba(168,168,168,0.72);                            font-family:$main-font;
+                            align-self: center;
+                            padding-left:20px;
+                            border-radius:5px;
+                            }
+                            .form-date2{
+                                margin-left:40px;
+                            }
+                        }
+                        
+                        input[type="submit"]{
+                        margin:40px 0px 20px 0px;
+                        border:2px solid #f7a537;
+                        text-decoration:none;
+                        background-color:#f7a537;
+                        padding:15px 0px;
+                        width:100%;
+                        font-size:$button-text;
+                        color:white;
+                        text-transform: uppercase;
+                        border-radius:5px;
+                        
+                            
+                        }
+                        input[type="submit"]:hover{
+                            background-color:#eb8a0c;
+                        }
+                    }
+                    a{
+                        margin:20px 50px;
+                        text-decoration:none;
+                        background-color:#f7a537;
+                        padding:10px 40px;
+                        font-size:$button-text;
+                        color:white;
+                        text-transform: uppercase;
+                        border-radius:5px;
+                    }
+                }
+               
+                
+            }
+            
+            .sect2{
+                width:100%;
+                height:700px;
+                clip-path: polygon(0 0, 100% 0, 100% 60%, 50% 77%, 0 60%);
+                display:flex;
+                flex-direction:column;
+                align-items:center;
+                justify-content: flex-start;
+                flex-wrap:wrap;
+                background: $header-tablet-bg;
+                background-size:cover;
+                
+                .hero-img {
+                    background :$header-tablet-bg;
+                    position : relative;
+                    .hero-img::before {
+                        content : "";
+                        background : black;
+                        display : block;
+                        position : absolute;
+                        width : 100%;
+                        height : 100%;
+                        opacity : 0;
+                     }
+                  
+                 }
+                 
+                    
+                h1{
+                    font-family: $heading-font;
+                    font-weight:500;
+                    font-size:$heading-text;
+                    margin-bottom:20px;
+                    width:70%;
+                    margin-top:150px;
+                    text-align:center;
+                    visibility:visible;
+                    color:white;
+                    box-shadow:3px 3px 0.5 black;
+                }
+               
+                .header-txt{
+                    text-align:left;
+                    color:white;
+                    visibility:visible;
+                }
+                p{
+                    box-shadow:3px 3px 0.5 black;
+                    text-align: center;
+                    color:white;
+                    margin-top:20px;
+                    margin-left: 5%;
+                    width:80%;
+                }
+                .para1{
+                    //border-top:5px solid orange;
+                    font-size:$section-text;
+                    padding-top:5px;
+                }
+            }
+        }
+    }
+    .offer{
+        background-color:rgb(210, 220, 230);
+        box-shadow: 5px 5px 7px -5px rgba(0,0,0,0.67);
+                h2{
+            padding:70px 70px 10px 70px;
+            margin-top:0px;
+            margin-bottom:20px;
+            font-family:$heading-font;
+            text-align:$center-txt;
+            font-weight: 500;
+            font-size:$subheading-text;
+        }
+        .offer-subheading{
+            font-size:$button-text;
+            width:80%;
+            margin:auto;
+            border-radius:5px;
+            padding-bottom:35px;
+            text-align: center;
+        }
+        .offer-upper{  
+            font-size:$highlight-text;
+            width:80%;
+            margin-top:30px;
+            margin-bottom:35px;
+            margin-left:38%;
+            display:inline;
+            padding:5px 5px;
+            border-radius:0px;
+            border-top:3px solid white;
+            //background-color:#e83c3c;
+            color:white;
+            text-align: center; 
+            text-transform: uppercase;
+            font-weight:400;
+        }
+       
+        .offer-content{
+            display: flex;
+            flex-direction:row;
+            align-items:center;
+            justify-content:center;
+            flex-wrap: wrap;
+            margin:5px;
+                .offer-card{
+                    margin:20px 0px;
+                    border-radius:4px;
+                    width:45%;
+                    align-self:center;
+                    margin-right:20px;
+                    -webkit-box-shadow: 5px 5px 7px -5px rgba(0,0,0,0.67);
+                    box-shadow: 5px 5px 7px -5px rgba(0,0,0,0.67);
+                
+                
+                    .offer-card-img-cont{
+                        height:500px;
+                        width:100%;
+                        border-radius: 5px;
+                        margin:0px;
+
+                        }
+                        #offer1{
+                            background: url(../img/johnstone1.jpg) top center;
+                            background-size: cover;
+                            display:flex;
+                            color:white;
+                            flex-direction:column;
+                            justify-content:flex-end;
+                            align-items:center;
+                            
+                            .offer-name{
+                                font-family: $main-font;
+                                font-size:$button-text;
+                                font-weight:700;
+                            }
+                            .offer-card-cont{
+                                width:90%;
+                                margin-top:0px;
+                                .body-text{
+                                    font-size:$caption-text;
+                                    text-align:center;
+                                }
+                            }
+                            .offer-card-bottom{
+                                display:flex;
+                                justify-content:center;
+                            
+                                .offer-price-before{
+                                    margin-top:25px;
+                                    margin-left:20px;
+                                    font-size: $caption-text;
+                                }
+                                .offer-price-after{
+                                    font-size:$button-text;
+                                    font-weight:700;
+                                }
+                            }
+                        }
+                        
+
+                        #offer2{
+                            background-image: url(../img/great-bear.jpg);
+                            background-size: cover;
+                            display:flex;
+                            color:white;
+                            flex-direction:column;
+                            justify-content:flex-end;
+                            align-items:center;
+                            
+                            .offer-name{
+                                font-family: $main-font;
+                                font-size:$button-text;
+                                font-weight:700;
+                            }
+                            .offer-card-cont{
+                                width:90%;
+                                margin-top:0px;
+                                .body-text{
+                                    font-size:$caption-text;
+                                    text-align:center;
+                                }
+                            }
+                            .offer-card-bottom{
+                                display:flex;
+                                justify-content:center;
+                            
+                                .offer-price-before{
+                                    margin-top:25px;
+                                    margin-left:20px;
+                                    font-size: $caption-text;
+                                }
+                                .offer-price-after{
+                                    font-size:$button-text;
+                                    font-weight:700;
+                                }
+                            }
+                        }
+
+
+                        #offer3{
+                            background-image: url(../img/nuchalitz1.jpg);
+                            background-size: cover;
+                            display:flex;
+                            color:white;
+                            flex-direction:column;
+                            justify-content:flex-end;
+                            align-items:center;
+                            
+                            .offer-name{
+                                font-family: $main-font;
+                                font-size:$button-text;
+                                font-weight:700;
+                            }
+                            .offer-card-cont{
+                                width:90%;
+                                margin-top:0px;
+                                .body-text{
+                                    font-size:$caption-text;
+                                    text-align:center;
+                                }
+                            }
+                            .offer-card-bottom{
+                                display:flex;
+                                justify-content:center;
+                            
+                                .offer-price-before{
+                                    margin-top:25px;
+                                    margin-left:20px;
+                                    font-size: $caption-text;
+                                }
+                                .offer-price-after{
+                                    font-size:$button-text;
+                                    font-weight:700;
+                                }
+                            }
+                        }
+
+                        #offer4{
+                            background-image: url(../img/whale1.jpg);
+                            background-size: cover;
+                            display:flex;
+                            color:white;
+                            flex-direction:column;
+                            justify-content:flex-end;
+                            align-items:center;
+                            
+                            .offer-name{
+                                font-family: $main-font;
+                                font-size:$button-text;
+                                font-weight:700;
+                            }
+                            .offer-card-cont{
+                                width:90%;
+                                margin-top:0px;
+                                .body-text{
+                                    font-size:$caption-text;
+                                    text-align:center;
+                                }
+                            }
+                            .offer-card-bottom{
+                                display:flex;
+                                justify-content:center;
+                            
+                                .offer-price-before{
+                                    margin-top:25px;
+                                    margin-left:20px;
+                                    font-size: $caption-text;
+                                }
+                                .offer-price-after{
+                                    font-size:$button-text;
+                                    font-weight:700;
+                                }
+                            }
+                        }
+
+                }
+           }
+
+    }
+    footer{
+        background-color:white;
+        height: 90px;
+        display:flex;
+        flex-direction:row;
+        .link-foot{
+            font-family: $main-font;
+            font-size:$caption-text;
+            display:flex;
+            a{
+                text-decoration: none;
+                color:black; 
+                margin-top:40px;
+            }
+            a:hover{
+                color:blue;
+            }
+            a:first-child{
+                margin-left:60px;
+            }
+            a:last-child{
+                margin-left:10px;
+            }
+        }
+        .logo-foot{
+            display:flex;
+            flex-direction:column;
+            align-items: flex-end;
+            justify-content:center;
+            margin-right:5%;
+          
+            img{
+                margin-top:20px;
+                margin-left:5%;
+                width:10%;
+            }
+            p{
+                margin-top:0px;
+                font-size:12px;
+                font-weight:bold;
+            }
+            
+        }
+    }
 }
