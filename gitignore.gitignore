@@ -1,2 +1,3 @@
-/img/johnstone.psd
-/assets
+img/johnstone.psd
+assets
+*.DS_Store
