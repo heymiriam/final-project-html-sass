@@ -1,0 +1,40 @@
+//font variables
+$main-font:'Nunito Sans', sans-serif;
+$heading-font:'Fraunces', serif;
+$body-text: 18px;
+$highlight-text:30px;
+$button-text: 20px;
+$heading-text:60px;
+$subheading-text:40px;
+$uppercase: uppercase;
+$section-text: 25px;
+$caption-text:15px;
+$weight-text:600;
+
+
+//Colors
+$blue:#456eb4;
+$orange:#f7a537;
+$red:#e83c3c;
+$black:rgb(29, 25, 25);
+
+
+//align variables
+$center-txt:center;
+
+
+//media queries breakpoint
+$breakpoint-desktop:1024px;
+$breakpoint-tablet:768px;
+$breakpoint-phone:767px;
+
+
+//background images
+$header-bg:url("../img/photo-1501114676295-bbbcc7a12466.jpeg") no-repeat center center fixed;
+$header-tablet-bg:url("../img/hero-tablet.jpg") no-repeat bottom center fixed;
+
+//positions
+$relative-pos:relative;
+
+//displays
+$flexbox:flex;

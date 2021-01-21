@@ -18,13 +18,13 @@ body {
   position: relative;
 }
 
-.hero-img::before {
+.hero-img .hero-img::before {
   content: "";
   background: black;
   display: block;
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   opacity: 0;
 }
 
@@ -98,11 +98,11 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
   }
   header .cont1 .sect1 .sect-cont h1 {
     font-family: "Fraunces", serif;
@@ -679,6 +679,7 @@ body {
         align-self: center;
     margin-bottom: 20px;
     margin-left: 12%;
+    margin-left: 12%;
     display: none;
   }
   header .cont1 .sect1 .sect-cont .header-txt {
@@ -724,7 +725,6 @@ body {
     color: black;
     margin-top: 30px;
     margin-bottom: 10px;
-    text-align: center;
   }
   header .cont1 .sect1 .sect-cont form select {
     height: 40px;
@@ -737,10 +737,10 @@ body {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
-    text-align: center;
     padding-left: 20px;
     border-radius: 5px;
     width: 100%;
+    text-align: center;
   }
   header .cont1 .sect1 .sect-cont form .form-date {
     margin-top: 25px;
@@ -1297,7 +1297,7 @@ body {
   }
   header .cont1 .sect1 .sect-cont .header-txt {
     text-align: center;
-    color: #1d1919;
+    color: black;
   }
   header .cont1 .sect1 .sect-cont p {
     text-align: center;
@@ -1767,7 +1767,7 @@ body {
   }
   footer .link-foot a {
     text-decoration: none;
-    color: black;
+    color: #1d1919;
     margin-top: 40px;
   }
   footer .link-foot a:hover {

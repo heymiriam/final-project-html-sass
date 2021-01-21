@@ -1,0 +1,137 @@
+
+//mixins
+
+
+@mixin body{
+    font-family: $main-font;
+    margin:0;
+    padding:0;
+}
+
+@mixin style-heading(){
+    font: 40px;
+    text-transform: uppercase;
+}
+
+@mixin value-name{
+    font-size:18px;
+    font-weight: 600;
+}
+
+@mixin header-bg{
+    background: $header-bg;
+    background-size:cover;
+    clip-path: polygon(44% 0, 100% 0, 100% 100%, 44% 100%, 0 54%);
+    //clip-path: polygon(0 0, 0% 100%, 50% 50%);
+}
+
+@mixin  hero-img{
+    background :$header-bg;
+    position : $relative-pos;
+}
+
+
+@mixin nav-flex{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+@mixin header-flex{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+@mixin header-h1{
+    font-family: $heading-font;
+        font-weight:500;
+        font-size:$heading-text;
+        align-self: center;
+        margin-bottom:20px;
+        margin-left:12%;
+}
+
+@mixin label{
+    font-size:$button-text;
+    color:black;
+    margin-top:30px;
+    margin-bottom:10px;
+}
+
+@mixin select {
+    height: 40px;
+    color:rgb(153, 153, 153);
+    font-size:$body-text;
+    border:none;
+    box-shadow: 5px 5px 15px 1px rgba(168,168,168,0.72);                            font-family:$main-font;
+    align-self: center;
+    padding-left:20px;
+    border-radius:5px;
+    width:100%;
+}
+
+@mixin date{
+    width:95%;
+    height: 40px;
+    color:rgb(153, 153, 153);
+    font-size:$body-text;
+    border:none;
+    margin-top:10px;
+    box-shadow: 5px 5px 15px 1px rgba(168,168,168,0.72);                            font-family:$main-font;
+    align-self: center;
+    padding-left:20px;
+    border-radius:5px;
+   }
+
+   @mixin submit{
+    margin:40px 0px 20px 0px;
+    border:2px solid #f7a537;
+    text-decoration:none;
+    background-color:#f7a537;
+    padding:15px 0px;
+    width:100%;
+    font-size:$button-text;
+    color:white;
+    text-transform: $uppercase;
+    border-radius:5px;
+}
+
+@mixin discover-btn{
+    margin:20px 50px;
+    text-decoration:none;
+    background-color:$orange;
+    padding:10px 40px;
+    font-size:$button-text;
+    color:white;
+    text-transform: $uppercase;
+    border-radius:5px;
+}
+
+@mixin hero-before{
+    content : "";
+    background :black;
+    display : block;
+    position : absolute;
+    width : 100%;
+    height : 100%;
+    opacity : 0;
+}
+
+@mixin offer-h2{
+    padding:70px 70px 10px 70px;
+    margin-top:0px;
+    margin-bottom:20px;
+    font-family:$heading-font;
+    text-align:$center-txt;
+    font-weight: 500;
+    font-size:$subheading-text;
+}
+
+@mixin offer-card-img-cont{
+    height:500px;
+    width:100%;
+    border-radius: 5px;
+    margin:0px;
+}
