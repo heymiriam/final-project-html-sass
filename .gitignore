@@ -1,3 +1,4 @@
-img/johnstone.psd
-assets/
+/img/johnstone.psd
+/assets/
+/node_modules/
 *.DS_Store
