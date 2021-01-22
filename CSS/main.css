@@ -371,11 +371,7 @@ body {
     font-family: "Nunito Sans", sans-serif;
     font-size: 20px;
     font-weight: 700;
-    width: 90%;
-    margin: 0;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    width: 95%;
   }
   .offer .offer-content .offer-card #offer1 .offer-card-cont {
     width: 90%;
@@ -408,12 +404,12 @@ body {
     background-image: url(../img/great-bear.jpg);
     background-size: cover;
     top: 20;
-    color: white;
     left: 50;
     background-position: top center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    color: white;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -467,12 +463,12 @@ body {
     background-image: url(../img/nuchalitz1.jpg);
     background-size: cover;
     top: 20;
-    color: white;
     left: 50;
     background-position: top center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    color: white;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -527,12 +523,12 @@ body {
     background-image: url(../img/whale1.jpg);
     background-size: cover;
     top: 20;
-    color: white;
     left: 50;
-    background-position: left center;
+    background-position: top center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    color: white;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -548,6 +544,7 @@ body {
     transition: opacity 1s ease-in-out, z-index 1s ease-in-out, -webkit-transform 1s ease-in;
     transition: opacity 1s ease-in-out, transform 1s ease-in, z-index 1s ease-in-out;
     transition: opacity 1s ease-in-out, transform 1s ease-in, z-index 1s ease-in-out, -webkit-transform 1s ease-in;
+    background-position: left center;
   }
   .offer .offer-content .offer-card #offer4 .offer-name {
     font-family: "Nunito Sans", sans-serif;
@@ -578,7 +575,7 @@ body {
     font-weight: 700;
   }
   .testimonials-section {
-    background: #e0e0e0;
+    background: #edeff0;
     height: 65vh;
     display: -webkit-box;
     display: -ms-flexbox;

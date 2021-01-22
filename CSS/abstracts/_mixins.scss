@@ -135,3 +135,38 @@
     border-radius: 5px;
     margin:0px;
 }
+
+@mixin offer-card-desk{
+    background-size: cover;
+    top:20;
+    left:50;
+    background-position:top center;
+    display:flex;
+    color:white;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:flex-end;
+    text-align:center;
+    transition: opacity 1s ease-in-out, transform 1s ease-in, z-index 1s ease-in-out;
+}
+
+@mixin offer-card-tablet{
+    background-size: cover;
+    display:flex;
+    color:white;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:center;
+}
+
+@mixin offer-name-desk{
+    font-family: $main-font;
+    font-size:$button-text;
+    font-weight:700;
+    width:95%;
+}
+@mixin price-before{
+    margin-top:25px;
+    margin-left:20px;
+    font-size: $caption-text;
+}

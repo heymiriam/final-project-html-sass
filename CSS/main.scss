@@ -245,26 +245,11 @@ body{
                         }
                         #offer1{
                             background-image: url(../img/johnstone1.jpg);
-                            background-size: cover;
-                            top:20;
-                            left:50;
-                            background-position:top center;
-                            display:flex;
-                            color:white;
-                            flex-direction:column;
-                            justify-content:flex-end;
-                            align-items:flex-end;
-                            text-align:center;
-                            transition: opacity 1s ease-in-out, transform 1s ease-in, z-index 1s ease-in-out;
+                            @include offer-card-desk;
                             
                             .offer-name{
-                                font-family: $main-font;
-                                font-size:$button-text;
-                                font-weight:700;
-                                width:90%;
-                                margin:0;
-                                
-                                align-self:center;
+                                @include offer-name-desk;
+                               
                             }
                             .offer-card-cont{
                                 width:90%;
@@ -278,9 +263,7 @@ body{
                                 display:flex;
                             
                                 .offer-price-before{
-                                    margin-top:25px;
-                                    margin-left:20px;
-                                    font-size: $caption-text;
+                                    @include price-before;
                                 }
                                 .offer-price-after{
                                     font-size:$button-text;
@@ -295,23 +278,10 @@ body{
                         }
                         #offer2{
                             background-image: url(../img/great-bear.jpg);
-                            background-size: cover;
-                            top:20;
-                            color:white;
-                            left:50;
-                            background-position:top center;
-                            display:flex;
-                            flex-direction:column;
-                            justify-content:flex-end;
-                            align-items:flex-end;
-                            text-align:center;
-                            transition: opacity 1s ease-in-out, transform 1s ease-in, z-index 1s ease-in-out;
+                            @include offer-card-desk;
 
                             .offer-name{
-                                font-family: $main-font;
-                                font-size:$button-text;
-                                font-weight:700;
-                                width:95%;        
+                                @include offer-name-desk;       
                             }
                             
                             .offer-card-cont{
@@ -326,9 +296,7 @@ body{
                                 display:flex;
                             
                                 .offer-price-before{
-                                    margin-top:25px;
-                                    margin-left:20px;
-                                    font-size: $caption-text;
+                                    @include price-before;
                                 }
                                 .offer-price-after{
                                     font-size:$button-text;
@@ -343,23 +311,10 @@ body{
                         }
                         #offer3{
                             background-image: url(../img/nuchalitz1.jpg);
-                            background-size: cover;
-                            top:20;
-                            color:white;
-                            left:50;
-                            background-position:top center;
-                            display:flex;
-                            flex-direction:column;
-                            justify-content:flex-end;
-                            align-items:flex-end;
-                            text-align:center;
-                            transition: opacity 1s ease-in-out, transform 1s ease-in, z-index 1s ease-in-out;
+                            @include offer-card-desk;
 
                             .offer-name{
-                                font-family: $main-font;
-                                font-size:$button-text;
-                                font-weight:700;
-                                width:95%;
+                                @include offer-name-desk;
                                 text-align:center;
                                 //margin-left:50px; 
                             }
@@ -375,9 +330,7 @@ body{
                                 display:flex;
                             
                                 .offer-price-before{
-                                    margin-top:25px;
-                                    margin-left:20px;
-                                    font-size: $caption-text;
+                                    @include price-before;
                                 }
                                 .offer-price-after{
                                     font-size:$button-text;
@@ -391,23 +344,11 @@ body{
                         }
                         #offer4{
                             background-image: url(../img/whale1.jpg);
-                            background-size: cover;
-                            top:20;
-                            color:white;
-                            left:50;
+                           @include offer-card-desk;
                             background-position:left center;
-                            display:flex;
-                            flex-direction:column;
-                            justify-content:flex-end;
-                            align-items:flex-end;
-                            text-align:center;
-                            transition: opacity 1s ease-in-out, transform 1s ease-in, z-index 1s ease-in-out;
-
+                            
                             .offer-name{
-                                font-family: $main-font;
-                                font-size:$button-text;
-                                font-weight:700;
-                                width:95%;
+                                @include offer-name-desk;
                             }
                             .offer-card-cont{
                                 width:90%;
@@ -421,9 +362,8 @@ body{
                                 display:flex;
                             
                                 .offer-price-before{
-                                    margin-top:25px;
-                                    margin-left:20px;
-                                    font-size: $caption-text;
+                                    
+                                    @include price-before;
                                 }
                                 .offer-price-after{
                                     font-size:$button-text;
@@ -437,12 +377,9 @@ body{
 
     }
     .testimonials-section{
-        background: rgb(224, 224, 224);
+        background: rgb(237, 239, 240);
         height: 65vh;
-        display: flex;
-        flex-direction:column;
-        justify-content: center;
-        align-items: center;
+        @include header-flex;
         box-shadow: 5px 5px 7px -5px rgba(0,0,0,0.67);
         h3{
             margin-top:0px;
@@ -452,7 +389,7 @@ body{
         }
         .testimonials{
             
-            display: flex;
+            display: $flexbox;
             align-items: center;
             justify-content: center;
         
@@ -789,14 +726,7 @@ body{
                             }
                             #offer1{
                                 background: url(../img/johnstone1.jpg) top center;
-                                background-size: cover;
-                                display:flex;
-                                
-                                color:white;
-                                flex-direction:column;
-                                justify-content:flex-end;
-                                align-items:center;
-                                
+                                @include offer-card-tablet;
                                 .offer-name{
                                     font-family: $main-font;
                                     font-size:$button-text;
@@ -830,12 +760,7 @@ body{
     
                             #offer2{
                                 background-image: url(../img/great-bear.jpg);
-                                background-size: cover;
-                                display:flex;
-                                color:white;
-                                flex-direction:column;
-                                justify-content:flex-end;
-                                align-items:center;
+                                @include offer-card-tablet;
                                 
                                 .offer-name{
                                     font-family: $main-font;
@@ -855,9 +780,7 @@ body{
                                     justify-content:center;
                                 
                                     .offer-price-before{
-                                        margin-top:25px;
-                                        margin-left:20px;
-                                        font-size: $caption-text;
+                                        @include price-before;
                                     }
                                     .offer-price-after{
                                         font-size:$button-text;
@@ -869,12 +792,7 @@ body{
     
                             #offer3{
                                 background-image: url(../img/nuchalitz1.jpg);
-                                background-size: cover;
-                                display:flex;
-                                color:white;
-                                flex-direction:column;
-                                justify-content:flex-end;
-                                align-items:center;
+                                @include offer-card-tablet;
                                 
                                 .offer-name{
                                     font-family: $main-font;
@@ -895,9 +813,7 @@ body{
                                     justify-content:center;
                                 
                                     .offer-price-before{
-                                        margin-top:25px;
-                                        margin-left:20px;
-                                        font-size: $caption-text;
+                                        @include price-before;
                                     }
                                     .offer-price-after{
                                         font-size:$button-text;
@@ -908,12 +824,7 @@ body{
     
                             #offer4{
                                 background-image: url(../img/whale1.jpg);
-                                background-size: cover;
-                                display:flex;
-                                color:white;
-                                flex-direction:column;
-                                justify-content:flex-end;
-                                align-items:center;
+                                @include offer-card-tablet;
                                 
                                 .offer-name{
                                     font-family: $main-font;
@@ -936,9 +847,7 @@ body{
                                     justify-content:center;
                                 
                                     .offer-price-before{
-                                        margin-top:25px;
-                                        margin-left:20px;
-                                        font-size: $caption-text;
+                                        @include price-before;
                                     }
                                     .offer-price-after{
                                         font-size:$button-text;
