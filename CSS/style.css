@@ -70,6 +70,8 @@ body {
             margin-top: 20px;
             margin-left: 5%;
             width: 80%; }
+            header .cont1 .sect1 .sect-cont p .bold {
+              font-weight: 700; }
           header .cont1 .sect1 .sect-cont .para1 {
             font-size: 25px;
             padding-top: 5px; }
@@ -193,7 +195,11 @@ body {
       padding-bottom: 5px;
       text-align: center;
       text-transform: uppercase;
-      font-weight: 700; }
+      font-weight: 700;
+      animation: blinker 1s linear infinite; }
+  @keyframes blinker {
+    80% {
+      opacity: 0.5; } }
     .offer .offer-content {
       display: flex;
       flex-direction: row;
@@ -213,6 +219,9 @@ body {
           border-radius: 5px;
           margin: 0px;
           height: 500px; }
+        .offer .offer-content .offer-card #offer1:hover {
+          transform: scale(1.05, 1.05);
+          z-index: -10; }
         .offer .offer-content .offer-card #offer1 {
           background-image: url(../img/johnstone1.jpg);
           background-size: cover;
@@ -224,7 +233,8 @@ body {
           flex-direction: column;
           justify-content: flex-end;
           align-items: flex-end;
-          text-align: center; }
+          text-align: center;
+          transition: opacity 1s ease-in-out, transform 1s ease-in, z-index 1s ease-in-out; }
           .offer .offer-content .offer-card #offer1 .offer-name {
             font-family: "Nunito Sans", sans-serif;
             font-size: 20px;
@@ -247,6 +257,9 @@ body {
             .offer .offer-content .offer-card #offer1 .offer-card-bottom .offer-price-after {
               font-size: 20px;
               font-weight: 700; }
+        .offer .offer-content .offer-card #offer2:hover {
+          transform: scale(1.05, 1.05);
+          z-index: -10; }
         .offer .offer-content .offer-card #offer2 {
           background-image: url(../img/great-bear.jpg);
           background-size: cover;
@@ -258,7 +271,8 @@ body {
           flex-direction: column;
           justify-content: flex-end;
           align-items: flex-end;
-          text-align: center; }
+          text-align: center;
+          transition: opacity 1s ease-in-out, transform 1s ease-in, z-index 1s ease-in-out; }
           .offer .offer-content .offer-card #offer2 .offer-name {
             font-family: "Nunito Sans", sans-serif;
             font-size: 20px;
@@ -279,6 +293,9 @@ body {
             .offer .offer-content .offer-card #offer2 .offer-card-bottom .offer-price-after {
               font-size: 20px;
               font-weight: 700; }
+        .offer .offer-content .offer-card #offer3:hover {
+          transform: scale(1.05, 1.05);
+          z-index: -10; }
         .offer .offer-content .offer-card #offer3 {
           background-image: url(../img/nuchalitz1.jpg);
           background-size: cover;
@@ -290,7 +307,8 @@ body {
           flex-direction: column;
           justify-content: flex-end;
           align-items: flex-end;
-          text-align: center; }
+          text-align: center;
+          transition: opacity 1s ease-in-out, transform 1s ease-in, z-index 1s ease-in-out; }
           .offer .offer-content .offer-card #offer3 .offer-name {
             font-family: "Nunito Sans", sans-serif;
             font-size: 20px;
@@ -312,6 +330,9 @@ body {
             .offer .offer-content .offer-card #offer3 .offer-card-bottom .offer-price-after {
               font-size: 20px;
               font-weight: 700; }
+        .offer .offer-content .offer-card #offer4:hover {
+          transform: scale(1.05, 1.05);
+          z-index: -10; }
         .offer .offer-content .offer-card #offer4 {
           background-image: url(../img/whale1.jpg);
           background-size: cover;
@@ -323,7 +344,8 @@ body {
           flex-direction: column;
           justify-content: flex-end;
           align-items: flex-end;
-          text-align: center; }
+          text-align: center;
+          transition: opacity 1s ease-in-out, transform 1s ease-in, z-index 1s ease-in-out; }
           .offer .offer-content .offer-card #offer4 .offer-name {
             font-family: "Nunito Sans", sans-serif;
             font-size: 20px;
@@ -380,7 +402,10 @@ body {
           vertical-align: baseline; }
           .testimonials-section .testimonials .testimonial-card .text .quot {
             font-weight: 400;
-            font-size: 40px; }
+            font-size: 40px;
+            transition: transform 1s ease; }
+            .testimonials-section .testimonials .testimonial-card .text .quot :hover {
+              transform: rotate(90deg); }
         .testimonials-section .testimonials .testimonial-card .testimonial-bottom {
           background: url(../img/kayaking-header2.jpg);
           height: 100px;
@@ -399,7 +424,7 @@ body {
     flex-direction: row; }
     footer .link-foot {
       font-family: "Nunito Sans", sans-serif;
-      font-size: 15px;
+      font-size: 18px;
       display: flex; }
       footer .link-foot a {
         text-decoration: none;
@@ -410,7 +435,7 @@ body {
       footer .link-foot a:first-child {
         margin-left: 60px; }
       footer .link-foot a:last-child {
-        margin-left: 10px; }
+        margin-left: 30px; }
     footer .logo-foot {
       display: flex;
       flex-direction: column;
@@ -482,6 +507,8 @@ body {
             margin-left: 5%;
             margin-bottom: 25px;
             width: 80%; }
+            header .cont1 .sect1 .sect-cont p .bold {
+              font-weight: 700; }
           header .cont1 .sect1 .sect-cont .para1 {
             font-size: 25px;
             padding-top: 5px; }
@@ -636,7 +663,11 @@ body {
       color: #1d1919;
       text-align: center;
       text-transform: uppercase;
-      font-weight: 700; }
+      font-weight: 700;
+      animation: blinker 1s linear infinite; }
+  @keyframes blinker {
+    80% {
+      opacity: 0.5; } }
     .offer .offer-content {
       display: flex;
       flex-direction: row;
@@ -912,6 +943,8 @@ body {
             margin-top: 5px;
             margin-bottom: 25px;
             width: 85%; }
+            header .cont1 .sect1 .sect-cont p .bold {
+              font-weight: 700; }
           header .cont1 .sect1 .sect-cont .para1 {
             font-size: 25px;
             padding-top: 5px; }
@@ -1073,7 +1106,11 @@ body {
       color: #1d1919;
       text-align: center;
       text-transform: uppercase;
-      font-weight: 700; }
+      font-weight: 700;
+      animation: blinker 1s linear infinite; }
+  @keyframes blinker {
+    80% {
+      opacity: 0.5; } }
     .offer .offer-content {
       display: flex;
       flex-direction: column;
