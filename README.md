@@ -1,4 +1,6 @@
 # final-project-html-sass
+# About
+Landing page in which Go Kayak's promotion. This promotion consists of kayaking trips around Broughton Archipelago. Go Kayak offers these trips at half price.
 
 # Target audience
 Local young adults who are passionate about nature, sports and traveling. 
